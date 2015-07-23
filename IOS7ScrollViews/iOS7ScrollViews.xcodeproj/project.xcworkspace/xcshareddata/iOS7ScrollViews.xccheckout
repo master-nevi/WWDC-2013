@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FC2ED9C8-7E2B-411D-A5A4-C6BB87A6B98A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOS7ScrollViews</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>29C4239F7913761D67F702B7BB05E6BEA4B3F64A</key>
+		<string>https://github.com/brextonpham/WWDC-2013.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IOS7ScrollViews/iOS7ScrollViews.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>29C4239F7913761D67F702B7BB05E6BEA4B3F64A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/brextonpham/WWDC-2013.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>29C4239F7913761D67F702B7BB05E6BEA4B3F64A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>29C4239F7913761D67F702B7BB05E6BEA4B3F64A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WWDC-2013</string>
+		</dict>
+	</array>
+</dict>
+</plist>

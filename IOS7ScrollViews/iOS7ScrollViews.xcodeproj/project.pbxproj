@@ -17,8 +17,8 @@
 		497F937C177371D6005B8A3C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 497F937B177371D6005B8A3C /* Default@2x.png */; };
 		497F937E177371D6005B8A3C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 497F937D177371D6005B8A3C /* Default-568h@2x.png */; };
 		497F93871773723D005B8A3C /* SVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 497F93851773723D005B8A3C /* SVViewController.m */; };
-		497F93881773723D005B8A3C /* SVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 497F93861773723D005B8A3C /* SVViewController.xib */; };
 		497F938B177372A1005B8A3C /* SVScrollingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 497F938A177372A1005B8A3C /* SVScrollingCell.m */; };
+		D611498D1B62927F008C667D /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D611498C1B62927F008C667D /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +37,9 @@
 		497F937D177371D6005B8A3C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		497F93841773723D005B8A3C /* SVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVViewController.h; sourceTree = "<group>"; };
 		497F93851773723D005B8A3C /* SVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVViewController.m; sourceTree = "<group>"; };
-		497F93861773723D005B8A3C /* SVViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVViewController.xib; sourceTree = "<group>"; };
 		497F9389177372A1005B8A3C /* SVScrollingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVScrollingCell.h; sourceTree = "<group>"; };
 		497F938A177372A1005B8A3C /* SVScrollingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVScrollingCell.m; sourceTree = "<group>"; };
+		D611498C1B62927F008C667D /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 				497F9377177371D6005B8A3C /* SVAppDelegate.m */,
 				497F93841773723D005B8A3C /* SVViewController.h */,
 				497F93851773723D005B8A3C /* SVViewController.m */,
-				497F93861773723D005B8A3C /* SVViewController.xib */,
+				D611498C1B62927F008C667D /* Storyboard.storyboard */,
 				497F9389177372A1005B8A3C /* SVScrollingCell.h */,
 				497F938A177372A1005B8A3C /* SVScrollingCell.m */,
 				497F936E177371D6005B8A3C /* Supporting Files */,
@@ -168,7 +168,7 @@
 				497F937A177371D6005B8A3C /* Default.png in Resources */,
 				497F937C177371D6005B8A3C /* Default@2x.png in Resources */,
 				497F937E177371D6005B8A3C /* Default-568h@2x.png in Resources */,
-				497F93881773723D005B8A3C /* SVViewController.xib in Resources */,
+				D611498D1B62927F008C667D /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +295,7 @@
 				497F9383177371D6005B8A3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

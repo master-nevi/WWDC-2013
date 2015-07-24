@@ -17,6 +17,7 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    /*
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     
     SVViewController * viewController = [[SVViewController alloc] initWithNibName:nil bundle:nil];
@@ -25,6 +26,7 @@
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    */
     return YES;
 }
 

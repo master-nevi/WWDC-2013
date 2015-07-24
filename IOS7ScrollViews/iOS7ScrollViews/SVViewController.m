@@ -11,7 +11,7 @@
 
 static NSString * cellIdentifier = @"CellIdentifier";
 
-@interface SVViewController () <SVScrollingCellDelegate>
+@interface SVViewController () <SVScrollingCellDelegate> //conform to delegate protocol
 @end
 
 CGFloat _random() { return (float)rand() / (float)RAND_MAX;}
@@ -35,17 +35,17 @@ CGFloat _random() { return (float)rand() / (float)RAND_MAX;}
 #pragma mark - SVScrollingCellDelegate
 
 - (void)scrollingCellDidBeginPulling:(SVScrollingCell *)cell {
-    [self.scrollView setScrollEnabled:NO];
+    [self.scrollView setScrollEnabled:NO]; //controls user scrolling
     
-    self.otherView.backgroundColor = cell.color;
+    self.otherView.backgroundColor = cell.color; //change color or respective cell
 }
 
 - (void)scrollingCell:(SVScrollingCell *)cell didChangePullOffset:(CGFloat)offset {
-    [self.scrollView setContentOffset:CGPointMake(offset, 0)];
+    [self.scrollView setContentOffset:CGPointMake(offset, 0)]; //set outer offset to innerscrollview offset
 }
 
 - (void)scrollingCellDidEndPulling:(SVScrollingCell *)cell {
-    [self.scrollView setScrollEnabled:YES];
+    [self.scrollView setScrollEnabled:YES]; //controls user scrolling
 }
 
 

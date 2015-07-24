@@ -16,7 +16,7 @@
 @end
 
 @protocol SVScrollingCellDelegate <NSObject>
-- (void)scrollingCellDidBeginPulling:(SVScrollingCell *)cell;
-- (void)scrollingCell:(SVScrollingCell *)cell didChangePullOffset:(CGFloat)offset;
-- (void)scrollingCellDidEndPulling:(SVScrollingCell *)cell;
+- (void)scrollingCellDidBeginPulling:(SVScrollingCell *)cell; //gets called when your finger goes past catchpoint and starts pulling outer scrollview with you
+- (void)scrollingCell:(SVScrollingCell *)cell didChangePullOffset:(CGFloat)offset; //gets called when content offset is changed
+- (void)scrollingCellDidEndPulling:(SVScrollingCell *)cell; //tell delegate when pulling is ended
 @end
